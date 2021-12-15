@@ -1,0 +1,245 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #7d6959;}
+body{
+    font-family: 'Noto Sans KR';
+    font-size: 17px;
+    line-height: 45px;
+    color: #432d2d;
+}
+
+/*해더*/
+#header{
+    height: 115px;
+}
+.header_inner{
+    width: 1320px;
+    margin: auto;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 28px;
+    left: 0;
+}
+.icon{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+.icon li{
+    float: left;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.icon a:hover{
+    color: #4b443a;
+}
+.login{
+    background: url(images/login.png) no-repeat left center;
+    
+}
+.login a{
+    padding: 0 10px 0 30px;
+    margin-right: 10px; 
+    display: block;
+}
+.shopping{
+    background: url(images/shopping.png) no-repeat left center;
+}
+.shopping a{
+    padding: 0 0 0  40px;
+    margin-right: 10px; 
+    display: block;
+}
+.search a{
+    background: url(images/search.png) no-repeat left center;
+    height: 45px;
+    width: 40px;
+    display: block;
+}
+#header2{
+    background-color: #fff;
+    height: 45px;
+    padding: 0 0 20px;
+}
+.header2_inner{
+    width: 1320px;
+    margin: auto;
+    position: relative;
+}
+#header2 .menu{
+    font-size: 27px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    margin-left: -441px;
+}
+#header2 .menu li{
+    font-family: 'Noto Sans KR', sans-serif;
+    float: left;
+    margin: 0 56px;
+}
+#header2 .menu a{
+    color: #837764;
+}
+#header2 .menu a:hover{
+    color: #4b443a;
+}
+#header2.scroll-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/*컨텐츠1*/
+#content1{
+    width: 1093px;
+    height: 630px;
+    margin: auto;
+    background: url(images/earl_pro.jpg) no-repeat top left;
+    margin-top: 96px;
+}
+.content1_inner{
+    float: right;
+    width: 434px;
+    margin-right: 107px;
+}
+h2{
+    font-weight: 300;
+    font-size: 17px;
+    color: #837764;
+}
+#content1 p{
+    line-height: 30px;
+    font-weight: 300;
+}
+h1{
+    margin-top: 15px;
+    font-weight: 300;
+    padding-left: 357px;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.buy{
+    background: #f8f9fb;
+    border: 1px solid #cbcbcb;
+    padding: 18px;
+}
+#content1 .buy p{
+    font-size: 20px;
+}
+.content1_inner> a{
+    display: block;
+    background-color: #313131;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+}
+.content1_inner> a:hover{
+    color: #fff;
+    background-color: #646363;
+}
+.buy span{
+    float: right;
+    padding-right: 10px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #efefef;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 300px;
+    font-weight: 300;
+    margin-top: 65px;
+    margin-bottom: 14px;
+}
+.won{
+    font-size: 30px;
+    font-weight: 300;
+    float: right;
+}
+
+/*상품상세*/
+h5{
+    border-bottom: 1px solid #d9d9d9;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 100px;
+    font-size: 20px;
+    position: relative;
+}
+h5 div{
+    width: 75px;
+    height: 1px;
+    background-color: #432d2d;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*컨텐츠2*/
+#content2 img{
+    width: 100%;
+    display: block;
+    margin-bottom: 200px;
+}
+
+/*푸터*/
+#footer{
+    height: 310px;
+    background-color: #464646;
+}
+.footer_inner{
+    color: #838383;
+    width: 1200px;
+    margin: auto;
+    padding: 50px 0;
+    font-weight: 500;
+}
+.f_text{
+    float: left;
+    width: 800px;
+}
+.f_text img{
+    float: left;
+    display: block;
+    margin-bottom: 40px;
+}
+.f_text ul{
+    float: right;
+    margin-right: 100px;
+}
+.f_text ul li{
+    float: left;
+    margin-left: 16px;
+}
+.f_text ul li a{
+    color: #838383;
+}
+.f_text ul li a:hover{
+    color: rgb(199, 198, 198);
+}
+.f_text p{
+    clear: both;
+    line-height: 30px;
+}
+.sns{
+    float: right;
+    margin-top: 40px;
+}
+.sns li{
+    float: left;
+    margin-right: 13px;
+    opacity: 0.6;
+}
+.sns li:hover{
+    opacity: 1;
+}
